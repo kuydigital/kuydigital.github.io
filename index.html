@@ -3,13 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>K U Y D I G I T A L</title>
-<meta name="description" content="Kuydigital - Branding, Mobile and Web Apps, Internet of Things (IOT), Robotics">
+<title>Kuydigital | Branding, Mobile and Web Apps, IoT and Robotics</title>
+<meta name="description" content="Kuydigital creates branding, mobile and web apps, Internet of Things (IoT) projects and robotics, including free open-source screensavers for Windows and Mac.">
 <meta name="robots" content="index,follow">
+<link rel="canonical" href="https://kuydigital.github.io/">
+<meta name="theme-color" content="#0b0b0c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kuydigital">
+<meta property="og:title" content="Kuydigital | Branding, Mobile and Web Apps, IoT and Robotics">
+<meta property="og:description" content="Branding, mobile and web apps, Internet of Things (IoT) and robotics by Kuydigital.">
+<meta property="og:url" content="https://kuydigital.github.io/">
+<meta property="og:image" content="https://kuydigital.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KUYDIGITAL in orange ASCII art letters on a black background">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://kuydigital.github.io/#org",
+      "name": "Kuydigital",
+      "url": "https://kuydigital.github.io/",
+      "logo": "https://kuydigital.github.io/kuydigital_monogram.png",
+      "sameAs": ["https://facebook.com/kuydigital.expressafewwords", "https://github.com/kuydigital"],
+      "knowsAbout": ["Branding", "Mobile apps", "Web apps", "Internet of Things", "Robotics"]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Kuydigital",
+      "url": "https://kuydigital.github.io/",
+      "publisher": {"@id": "https://kuydigital.github.io/#org"}
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="kuydigital_favicon.png">
+<link rel="apple-touch-icon" href="kuydigital_monogram.png">
 <style>
   /* Colours shared with the Kuydigital screensavers site */
   :root { --bg: #0b0b0c; --ink: #f1efe9; --mute: #a19e96; --line: #3a3a3f; --acc: #ff5b1f; }
@@ -37,6 +72,8 @@
   .icons { margin-top: 10px; display: flex; gap: 12px; justify-content: center; }
   .icons img { width: 34px; height: 34px; }
   .phone { display: none; }
+  /* Readable for search engines and screen readers, hidden on screen (the ASCII art shows the name) */
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   /* Phones: each banner as three lines - KUY / DIG / ITAL */
   @media (max-width: 760px) {
     .wide { display: none; }
@@ -49,7 +86,8 @@
 </head>
 <body>
 <main>
-  <pre class="art accent wide" style="--cols:110">      ___         ___                                     ___                            ___                  
+  <h1 class="sr-only">Kuydigital</h1>
+  <pre aria-hidden="true" class="art accent wide" style="--cols:110">      ___         ___                                     ___                            ___                  
      /|  |       /\  \              _____                /\__\                          /\  \                 
     |:|  |       \:\  \      ___   /::\  \     ___      /:/ _/_      ___          ___  /::\  \                
     |:|  |        \:\  \    /|  | /:/\:\  \   /\__\    /:/ /\  \    /\__\        /\__\/:/\:\  \               
@@ -61,7 +99,7 @@
     \:\__\      \::/  /      \:\__\\::/  /      /:/  /  \::/  /       /:/  /      \:\__\:\__\       \::/  /   
      \/__/       \/__/        \/__/ \/__/       \/__/    \/__/        \/__/        \/__/\/__/        \/__/</pre>
   <div class="phone">
-<pre class="art accent word" style="--cols:53">            ___           ___
+<pre aria-hidden="true" class="art accent word" style="--cols:53">            ___           ___
            /|  |         /\  \
           |:|  |         \:\  \         ___
           |:|  |          \:\  \       /|  |
@@ -72,7 +110,7 @@
          \:\~~\        \:\/:/  /   ~~~~\:\  \
           \:\__\        \::/  /         \:\__\
            \/__/         \/__/           \/__/</pre>
-<pre class="art accent word" style="--cols:53; margin-top:-1.15em">                                      ___
+<pre aria-hidden="true" class="art accent word" style="--cols:53; margin-top:-1.15em">                                      ___
            _____                     /\__\
           /::\  \       ___         /:/ _/_
          /:/\:\  \     /\__\       /:/ /\  \
@@ -83,7 +121,7 @@
          \:\/:/  /       \::/  /   \:\/:/  /
           \::/  /        /:/  /     \::/  /
            \/__/         \/__/       \/__/</pre>
-<pre class="art accent word" style="--cols:53; margin-top:-1.15em">                               ___
+<pre aria-hidden="true" class="art accent word" style="--cols:53; margin-top:-1.15em">                               ___
                               /\  \
    ___           ___         /::\  \
   /\__\         /\__\       /:/\:\  \
@@ -103,7 +141,7 @@
     <span class="pill">Robotics</span>
   </nav>
 
-  <pre class="art wide" style="--cols:108">      ___          ___                 ___                   ___                           ___          ___ 
+  <pre aria-hidden="true" class="art wide" style="--cols:108">      ___          ___                 ___                   ___                           ___          ___ 
      /  /\        /  /\    __         /  /\        ___      /  /\        ___   ___        /  /\        /  /\
     /  /:/       /  /:/   |  |\      /  /::\      /__/\    /  /::\      /__/\ /__/\      /  /::\      /  /:/
    /  /:/       /  /:/    |  |:|    /  /:/\:\     \__\:\  /  /:/\:\     \__\:\\  \:\    /  /:/\:\    /  /:/ 
@@ -115,7 +153,7 @@
     |__|:|       \  \::/\__\/        \__\::/    \__\/      \  \::/    \__\/ \__\/         /__/:/      \  \:\
      \__\|        \__\/                  ~~                 \__\/                         \__\/        \__\/</pre>
   <div class="phone">
-<pre class="art word" style="--cols:49">         ___           ___
+<pre aria-hidden="true" class="art word" style="--cols:49">         ___           ___
         /  /\         /  /\          __
        /  /:/        /  /:/         |  |\
       /  /:/        /  /:/          |  |:|
@@ -126,7 +164,7 @@
        |  |:|       \  \:\/:/     /__/:/
        |__|:|        \  \::/      \__\/
         \__\|         \__\/</pre>
-<pre class="art word" style="--cols:49">         ___                        ___
+<pre aria-hidden="true" class="art word" style="--cols:49">         ___                        ___
         /  /\           ___        /  /\
        /  /::\         /__/\      /  /::\
       /  /:/\:\        \__\:\    /  /:/\:\
@@ -137,7 +175,7 @@
       \  \:\/:/     \  \:\       \  \:\/:/
        \__\::/       \__\/        \  \::/
            ~~                      \__\/</pre>
-<pre class="art word" style="--cols:49; margin-top:-1.15em">                               ___           ___
+<pre aria-hidden="true" class="art word" style="--cols:49; margin-top:-1.15em">                               ___           ___
      ___         ___          /  /\         /  /\
     /__/\       /__/\        /  /::\       /  /:/
     \__\:\      \  \:\      /  /:/\:\     /  /:/
@@ -152,8 +190,8 @@
 
   <div class="credits">© 2026 Kuydigital | Credits: Text to ASCII Art Generator by patorjk.com</div>
   <div class="icons">
-    <img src="kuydigital_monogram.png" alt="Kuydigital monogram">
-    <a href="https://facebook.com/kuydigital.expressafewwords" target="_blank" rel="noopener"><img src="fb-icon-white.png" alt="Kuydigital on Facebook"></a>
+    <img src="kuydigital_monogram.png" width="34" height="34" alt="Kuydigital monogram">
+    <a href="https://facebook.com/kuydigital.expressafewwords" target="_blank" rel="noopener"><img src="fb-icon-white.png" width="34" height="34" alt="Kuydigital on Facebook"></a>
   </div>
 </main>
 </body>
